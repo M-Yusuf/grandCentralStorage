@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %} 
+  <div class="content-wrapper">
+  	<div class="contact-content-wrapper">
+  		<div class="contact-content-section-1 info-heading">
+  			<i class="fa fa-envelope"></i>
+  			<h2>Contact</h2>
+  		</div>
+  		<div class="contact-content-section-2">
+  			<input type="text" name="fullName" placeholder="Full Name" id="contactName">
+        <input type="text" name="email" placeholder="Email Address" id="contactEmail">
+        <input type="text" name="subject" placeholder="Subject" id="contactSubject">
+        <textarea name="message" placeholder="Type A Message&hellip;" id="contactMessage"></textarea>
+        <button id="contactSubmit">Submit</button>
+  		</div>
+  	</div>
+  </div>
+{% endblock %}

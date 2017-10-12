@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luggy | Luggage Storage Grand Central Station</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+  <meta name="description" content="">
+  <link rel="shortcut icon" id="favicon" href="/static/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.css">
+  <link rel='stylesheet' type='text/css' href='/static/css/main.css'>
+  <link rel="stylesheet" type="text/css" href="/static/css/responsive.css">    
+</head>
+<body>
+  <div class="main-container">
+    <div class="main-container-wrapper">
+      <div class="primary-header">
+        <div class="banner">
+          <h2>Store Your Luggage For $4.95 Per Day</h2>
+        </div>
+        <div class="mobile-header-wrapper">
+          <img class="mobile-header-bars" id="sidebar-trigger" src="/static/img/bars.svg" alt="hamburger menu icon">
+          <h2><a href="/">Luggy NYC</a></h2>
+        </div>
+        <div class="full-header-wrapper">
+          <h2><a href="/">Luggy NYC</a></h2>
+          <div class="full-header-left">
+            <a href="/location">LOCATION</a>
+            <a href="/pricing">PRICING</a>
+            <a href="/faqs">FAQs</a>
+            <a href="/contact">CONTACT</a>
+          </div>
+        </div>
+      </div>
+      <div class="primary-sidebar" id="sidebar-main">
+        <div class="sidebar-wrapper">
+          <a href="/">Home</a>
+          <a href="/location">Location</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/about">About</a>
+          <a href="/faqs">FAQs</a>
+          <a href="/terms">Terms</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </div>
+      <div class="primary-content">
+        {% block body %}
+        {% endblock %}  
+      </div>
+    </div>
+    <div class="primary-footer" id="footer">
+      <div class="footer-wrapper">
+        <div class="footer-links full-footer-links">
+          <a href="/about">About</a>
+          <a href="/location">Location</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/faqs">FAQs</a>
+          <a href="/terms">Terms</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div class="footer-address">
+          <p>445 5th Avenue New York, NY 10016</p>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2017 Luggy. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.simpler-sidebar.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+    <script type="text/javascript">
+      $("#sidebar-main").simplerSidebar( {
+        align: "left",
+        attr: "sidebar-main",
+        selectors: {
+          trigger: "#sidebar-trigger",
+          quitter: ".quitter"
+        }
+      });
+    </script>
+  </div>
+</body>
+</html>
