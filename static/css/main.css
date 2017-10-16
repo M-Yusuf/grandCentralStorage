@@ -1,6 +1,6 @@
 /*
 
-Luggy Stylesheet
+Grand Luggage Stylesheet
 main.css
 
 */
@@ -517,9 +517,55 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 
+/*_____________  Faqs Styles  _____________*/
+
+.faqs-content-section-2 {
+  width: 85%;
+  margin: auto;
+}
+
+.faqs-question h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: ;
+  margin-bottom: 15px;
+}
+
+.faqs-question p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
 
 
+/*_____________  Pricing Styles  _____________*/
 
+.pricing-content-section-2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+}
 
+/*.pricing-prices {
+  border: 1px solid #8162ff;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 50px 0;
+}
 
+.pricing-prices h2 {
+  font-size: 2rem;
+  color: #8162ff;
+  margin-bottom: 25px;
+}
+
+.pricing-prices p {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #8162ff;
+}*/
 
