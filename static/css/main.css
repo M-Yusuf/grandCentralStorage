@@ -70,6 +70,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   background: #5f97ff;
   width: 100%;
   position: fixed;
+  z-index: 999;
 }
 
 /*___  Banner  ___*/
@@ -321,7 +322,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 .home-content-section-3 div img {
-  width: 60%;
+  width: 192px;
   margin: auto;
 }
 
@@ -349,9 +350,54 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   line-height: 1.5;
 }
 
-/*___  Section 5  ___*/
+/*___  Section 6  ___*/
 
 .home-content-section-5 {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  padding-top: 20px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.home-content-section-5 img {
+  border-radius: 12px;
+  width: 192px;
+  height: 192px;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  margin-bottom: 15px;
+}
+
+.home-content-section-5 p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.home-content-section-5 a {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 4px;
+  background: #000;
+  display: inline-block;
+  margin: 0 10px;
+  background: #41b0ff;
+  color: #fff;
+}
+
+.home-content-section-5 a:hover {
+  background: #3696da;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -0-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+/*___  Section 6  ___*/
+
+.home-content-section-6 {
   text-align: center;
   width: 80%;
   margin: 0 auto 130px auto;
@@ -359,15 +405,15 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   border-top: 1px solid #d3d3d3;
 }
 
-.home-content-section-5 p {
+.home-content-section-6 p {
   line-height: 1.5;
 }
 
-.home-content-section-5 a {
+.home-content-section-6 a {
   color: #41b0ff;
 }
 
-.home-content-section-5 a:hover {
+.home-content-section-6 a:hover {
   text-decoration: underline;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
@@ -375,7 +421,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   transition: .25s ease-in-out;
 }
 
-.home-content-section-5 a:active {
+.home-content-section-6 a:active {
   color: #3391d4;
 }
 

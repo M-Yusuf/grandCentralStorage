@@ -16,6 +16,10 @@ def pricing():
 @app.route("/location")
 def location():
     return render_template("location.html")
+  
+@app.route("/coupons")
+def coupons():
+    return render_template("coupons.html")
 
 @app.route("/faqs")
 def faqs():
@@ -35,3 +39,25 @@ def page_not_found(e):
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0', port=4000)
+    
+# Shwartz Storage
+# Faqs
+# Location
+# Pricing
+# Responsive
+# Wording
+# Header
+# Footer
+
+
+
+
+
+
+
+
+
+
+
+
+
