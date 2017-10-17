@@ -229,7 +229,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .home-content-map {
   background-color: black; /* fallback color */
-  background-image: url("/static/img/map.png");
+  background-image: url("/static/img/map.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
