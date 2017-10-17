@@ -21,13 +21,13 @@ def location():
 def coupons():
     return render_template("coupons.html")
 
-@app.route("/faqs")
-def faqs():
-    return render_template("faqs.html")
+# @app.route("/faqs")
+# def faqs():
+#    return render_template("faqs.html")
 
-@app.route("/terms")
-def terms():
-    return render_template("terms.html")
+# @app.route("/terms")
+# def terms():
+#    return render_template("terms.html")
 
 @app.route("/contact")
 def contact():
