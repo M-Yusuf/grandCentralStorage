@@ -4,3 +4,577 @@ Grand Luggage Stylesheet
 responsive.css
 
 */
+
+@media(min-width: 350px) {
+
+	/*___  Header Styles  ___*/
+
+  .banner {
+  	padding: 12px 0;
+  }
+
+  .banner h2 {
+  	font-size: 0.95rem;
+  }
+
+  .mobile-header-wrapper > h2 > a {
+  	font-size: 1.4rem;
+  }
+
+  /*___  Sidebar Styles  ___*/
+
+  .sidebar-wrapper a {
+    padding: 25px 0 25px 25px;
+    font-size: 1rem;
+  }
+
+  /*___  Home Styles  ___*/
+
+  .home-content-map-overlay-info h2 {
+  	font-size: 1.6rem;
+  }
+
+  .home-content-map-overlay-info p {
+  	font-size: 0.95rem;
+  }
+
+  .home-content-section-2 {
+  	padding: 14px 0;
+  }
+
+  .home-content-section-2 p {
+  	font-size: 0.95rem;
+  }
+
+  .home-content-section-3 h2 {
+  	font-size: 2rem;
+  }
+
+  .home-content-section-3 div img {
+  	width: 200px;
+  }
+
+  .home-content-section-3 div p {
+  	font-size: 1.1rem;
+  	margin-top: 30px;
+  }
+
+  .home-content-section-4 p, .home-content-section-5 p, .home-content-section-6 p, .home-content-section-7 p {
+  	font-size: 1.1rem;
+  }
+
+  .home-content-section-6 img {
+  	width: 250px;
+  	height: 250px;
+  }
+
+  /*___  Footer Styles  ___*/
+
+  .primary-footer {
+  	height: 110px;
+    margin-top: -93px;
+  }
+
+  .footer-address p {
+  	font-size: 0.9rem;
+  }
+
+  .footer-copy p {
+  	font-size: 0.8rem;
+  }
+
+  .footer-wrapper {
+  	padding: 30px 0 35px 0;
+  }
+
+  /*___  Info Styles  ___*/
+
+  .info-heading h2 {
+    font-size: 1.6rem;
+  }
+
+  /*___  Location Styles  ___*/
+
+  .location-content-desc p {
+  	font-size: 1rem;
+  }
+
+  /*___  Pricing Styles  ___*/
+
+  .pricing-buttons a {
+    width: 125px;
+    padding: 18px 0;
+  }
+
+  /*___  Coupon Styles  ___*/
+
+  .coupons-coupon p {
+  	font-size: 1rem;
+  }
+
+  .coupons-coupon p:last-child {
+    font-size: 0.85rem;
+	}
+
+	/*___  Contact Styles  ___*/
+
+	.contact-content-section-2 p {
+		font-size: 1rem;
+	}
+}
+
+
+@media(min-width: 375px) {
+
+	/*___  Pricing Styles  ___*/
+
+	.pricing-buttons a {
+    width: 135px;
+  }
+}
+
+@media(min-width: 400px) {
+
+	/*___  Header Styles  ___*/
+
+  .banner {
+  	padding: 12px 0;
+  }
+
+  .banner h2 {
+  	font-size: 1.1rem;
+  }
+
+  .mobile-header-wrapper {
+    padding: 14px 0;
+  }
+
+  .mobile-header-wrapper > h2 > a {
+  	font-size: 1.6rem;
+  }
+
+  .mobile-header-wrapper > h2 {
+    padding-top: 7px;
+	}
+
+	.mobile-header-wrapper > img {
+    width: 30px;
+    height: 30px;
+	}
+
+  /*___  Sidebar Styles  ___*/
+
+  .sidebar-wrapper a {
+    padding: 30px 0 30px 30px;
+    font-size: 1.1rem;
+  }
+
+  /*___  Home Styles  ___*/
+
+  .home-content-section-1 {
+    height: 500px;
+	}
+
+  .home-content-map-overlay-info h2 {
+  	font-size: 1.8rem;
+  	margin-bottom: 15px;
+  }
+
+  .home-content-map-overlay-info p {
+  	font-size: 1.1rem;
+  }
+
+  .home-content-map-overlay-buttons {
+  	margin-top: 30px;
+  }
+
+  .home-content-map-overlay-buttons a {
+    width: 130px;
+    padding: 18px 0;
+    font-size: 1.1rem;
+  }
+
+  .home-content-section-2 {
+  	padding: 18px 0;
+  }
+
+  .home-content-section-2 p {
+  	font-size: 1.1rem;
+  }
+
+  .home-content-section-3 h2 {
+  	font-size: 2.2rem;
+  }
+
+  .home-content-section-3 div img {
+  	width: 225px;
+  }
+
+  .home-content-section-3 div p {
+  	font-size: 1.2rem;
+  	margin: 30px auto 35px auto;
+    padding-bottom: 30px;
+  }
+
+  .home-content-section-4 p, .home-content-section-5 p, .home-content-section-6 p, .home-content-section-7 p {
+  	font-size: 1.2rem;
+  }
+
+  .home-content-section-5 {
+    margin: 30px auto;
+    padding-top: 25px;
+  }
+
+  .home-content-section-6 {
+  	padding-top: 30px;
+  }
+
+  .home-content-section-6 p {
+  	margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .home-content-section-6 img {
+  	width: 280px;
+  	height: 280px;
+  }
+
+  .home-content-section-6 a {
+    padding: 18px 0;
+    font-size: 1.1rem;
+  }
+
+  /*___  Footer Styles  ___*/
+
+  .primary-footer {
+  	height: 114px;
+    margin-top: -96px;
+  }
+
+  .footer-address p {
+  	font-size: 1rem;
+  	margin-bottom: 20px;
+  }
+
+  .footer-copy p {
+  	font-size: 0.9rem;
+  }
+
+  /*___  Info Styles  ___*/
+
+  .info-heading {
+  	padding-top: 60px;
+  }
+
+  .info-heading i {
+    font-size: 1.4rem;
+    padding: 14px;
+  }
+
+  .info-heading h2 {
+    font-size: 1.8rem;
+    margin: 10px 0 0 15px;
+  }
+
+  /*___  Location Styles  ___*/
+
+  .location-content-desc p {
+  	font-size: 1.1rem;
+  	line-height: 1.7;
+  }
+
+  /*___  Pricing Styles  ___*/
+
+  .pricing-buttons a {
+    width: 147px;
+    font-size: 1.1rem;
+  }
+
+  /*___  Coupon Styles  ___*/
+
+  .coupons-coupon p {
+  	font-size: 1.1rem;
+  	line-height: 1.7;
+  }
+
+  .coupons-coupon {
+    padding-bottom: 30px;
+  }
+
+  .coupons-coupon p:last-child {
+    font-size: 0.9rem;
+	}
+
+	.coupons-luggage h2 {
+    padding: 18px 0;
+  }
+
+	.coupons-store img {
+		margin-top: 20px;
+	}
+
+	/*___  Contact Styles  ___*/
+
+	.contact-content-section-2 p {
+		font-size: 1.1rem;
+	}
+}
+
+
+@media(min-width: 750px) {
+
+	/*___  Home Styles  ___*/
+
+	.home-content-section-3 div p { 
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home-content-section-5, .home-content-section-6, .home-content-section-7 {
+		width: 60%;
+		max-width: 600px;
+	}
+
+	.home-content-section-4 {
+    width: 50%;
+    max-width: 500px;
+  }
+
+	.home-content-map-overlay {
+		max-width: 500px;
+	}
+
+	.home-content-section-6 img {
+    width: 400px;
+    height: 400px;
+	}
+
+	.home-content-section-6 a  {
+		max-width: 400px;
+	}
+}
+
+@media(min-width: 1200px) {
+	/*___  Header Styles  ___*/
+
+  .banner {
+  	padding: 12px 0;
+  }
+
+  .banner h2 {
+  	font-size: 0.9rem;
+  }
+
+  .mobile-header-wrapper > h2 > a {
+  	font-size: 1.3rem;
+  }
+
+  .mobile-header-wrapper > h2 {
+    padding-top: 6px;
+	}
+
+	.mobile-header-wrapper > img {
+    width: 25px;
+    height: 25px;
+	}
+
+  .sidebar-wrapper a {
+    padding: 25px 0 25px 25px;
+    font-size: 1rem;
+  }
+
+  .home-content-map-overlay-info h2 {
+  	font-size: 1.6rem;
+  	margin-bottom: 15px;
+  }
+
+  .home-content-map-overlay-info p {
+  	font-size: 1rem;
+  }
+
+  .home-content-map-overlay-buttons a {
+    width: 130px;
+    padding: 18px 0;
+    font-size: 1rem;
+  }
+
+  .home-content-section-2 {
+  	padding: 15px 0;
+  }
+
+  .home-content-section-2 p {
+  	font-size: 1rem;
+  }
+
+	.home-content-explaination {
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-direction: row !important;
+	  flex-direction: row !important;
+	  justify-content: center;
+	}
+
+	.home-content-section-3 div p {
+		width: 80%;
+		border: none;
+	}
+
+	.home-content-explaination > div {
+		width: 30%;
+		max-width: 600px;
+	}
+
+  .home-content-section-3 h2 {
+  	font-size: 2rem;
+  }
+
+  .home-content-section-3 div img {
+  	width: 225px;
+  }
+
+  .home-content-section-3 div p {
+  	font-size: 1.1rem;
+  	margin: 30px auto 35px auto;
+    padding-bottom: 30px;
+  }
+
+  .home-content-section-4 {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 0;
+		text-align: center;
+  }
+
+  .home-content-section-4 p {
+  	padding: 10px 60px;
+  }
+
+  .home-content-section-4 p, .home-content-section-5 p, .home-content-section-6 p, .home-content-section-7 p {
+  	font-size: 1.1rem;
+  }
+
+  .home-content-section-5 {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    background: #30aaff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-content-section-5 p {
+  	padding: 15px 60px;
+  	color: #fff !important;
+  }
+
+  .home-content-section-5 p a {
+  	color: #fff80c;
+  }
+
+  .home-content-section-6 {
+  	padding-top: 30px;
+  	border: none;
+  }
+
+  .home-content-section-6 p {
+  	margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .home-content-section-6 img {
+  	width: 400px;
+  	height: 400px;
+  }
+
+  .home-content-section-6 a {
+    padding: 18px 0;
+    font-size: 1rem;
+  }
+
+  /*___  Footer Styles  ___*/
+
+  .primary-footer {
+  	height: 115px;
+    margin-top: -97px;
+  }
+
+  .footer-address p {
+  	font-size: 0.9rem;
+  	margin-bottom: 20px;
+  }
+
+  .footer-copy p {
+  	font-size: 0.8rem;
+  }
+
+  /*___  Info Styles  ___*/
+
+  .info-heading {
+  	padding-top: 60px;
+  }
+
+  .info-heading i {
+    font-size: 1.4rem;
+    padding: 14px;
+  }
+
+  .info-heading h2 {
+    font-size: 1.8rem;
+    margin: 10px 0 0 15px;
+  }
+
+  /*___  Info Styles  ___*/
+
+  .info-heading {
+  	padding-top: 50px;
+  }
+
+  .info-heading i {
+    font-size: 1.2rem;
+    padding: 14px;
+  }
+
+  .info-heading h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 0 15px;
+  }
+
+  /*___  Location Styles  ___*/
+
+  .location-content-desc p {
+  	font-size: 1rem;
+  	line-height: 1.7;
+  }
+
+  /*___  Pricing Styles  ___*/
+
+  .pricing-buttons a {
+    width: 147px;
+    font-size: 1rem;
+  }
+
+  /*___  Coupon Styles  ___*/
+
+  .coupons-coupon p {
+  	font-size: 1rem;
+  	line-height: 1.7;
+  }
+
+	/*___  Contact Styles  ___*/
+
+	.contact-content-section-2 p {
+		font-size: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

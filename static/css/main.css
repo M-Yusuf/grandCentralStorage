@@ -20,6 +20,8 @@ html, body {
   -webkit-user-select: #f9ffa4 !important; 
 }
 
+body { overflow: hidden; }
+
 h1, h2, h3, h4, h5, h6, p { color: #666; letter-spacing: 0.5px; }
 p { font-size: 1rem; letter-spacing: 0.5px;}
 a { color: #666; text-decoration: none; letter-spacing: 0.5px;}
@@ -399,8 +401,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .home-content-section-6 img {
   border-radius: 12px;
-  width: 192px;
-  height: 192px;
+  width: 230px;
+  height: 230px;
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
   transform: rotate(90deg);
@@ -419,7 +421,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   border-radius: 4px;
   background: #000;
   display: inline-block;
-  margin: 0 10px;
   background: #41b0ff;
   color: #fff;
 }
@@ -437,7 +438,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .home-content-section-7 {
   text-align: center;
   width: 80%;
-  margin: 0 auto 130px auto;
+  margin: 0 auto 30px auto;
   padding-top: 20px;
   border-top: 1px solid #d3d3d3;
 }
@@ -741,6 +742,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   min-height: 250px;
   height: auto;
   border-radius: 6px;
+  margin-bottom: 30px;
 }
 
 
